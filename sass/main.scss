@@ -1,0 +1,17 @@
+@import './utils/variables';
+@import './base/reset';
+@import './utils/hidden';
+@import './base/common';
+
+@import './components/container';
+@import './components/btn';
+@import './components/modal';
+
+@import './layouts/benefits';
+@import './layouts/activity';
+@import './layouts/team';
+@import './layouts/clients';
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/footer';
+@import './layouts/portfolio';

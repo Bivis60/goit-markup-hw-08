@@ -1,0 +1,17 @@
+:root {
+  --font-logo: "Raleway", sans-serif;
+  --font-text: "Roboto", sans-serif;
+  --accent-color: #2196f3;
+  --logo-top-color: #000000;
+  --title-color: #212121;
+  --main-text-color: #757575;
+  --addres-color: #ffffff;
+  --footer-contakt-color: rgba(255, 255, 255, 0.6);
+  --line-color: #ececec;
+  --link-color: #afb1b8;
+  --main-background: #ffffff;
+  --footer-background: #2f303a;
+  --btn-background: #188ce8;
+  --team-background: #f5f4fa;
+  --duration: 250ms;
+}/*# sourceMappingURL=vars.css.map */
