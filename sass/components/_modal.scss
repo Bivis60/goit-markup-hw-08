@@ -11,7 +11,10 @@
 
 .modal {
     position: absolute;
-    width: 528px;
+    width: 450px;
+    @media screen and (min-width: 1200px) {
+        width: 528px;
+    }
     min-height: 581px;
     background-color: var(--main-background);
     top: 50%;
@@ -28,7 +31,6 @@
             transform: translate(-50%, -50%) scaleX(0);
         }
 }
-
 
 .modal-close {
     position: absolute;
@@ -152,9 +154,14 @@
 }
 
 .check-text {
-    line-height: 1.71;
+    font-size: 12px;
+    line-height: 1.17;
     display: flex;
     align-items: center;
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;
+        line-height: 1.71;
+    }
 }
 
 .check-text {
